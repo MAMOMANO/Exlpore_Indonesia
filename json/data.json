@@ -1,0 +1,192 @@
+{
+    "wisata":
+    [
+        {
+         "id":1,
+        "nama": "Candi Borobudur",
+        "provinsi": "Jawa Tengah",
+        "kota": "Magelang",
+        "gambar": "jawa.png",
+        "deskripsi": "Candi Borobudur adalah candi Buddha terbesar di dunia dan merupakan salah satu situs Warisan Dunia UNESCO yang paling terkenal. Terletak di Magelang, Jawa Tengah, candi ini memiliki struktur megah yang terdiri dari ribuan relief ukiran indah yang menggambarkan ajaran Buddha. Tidak hanya itu, pemandangan matahari terbit di Candi Borobudur adalah salah satu daya tarik utama yang sangat memukau wisatawan, dengan sinar matahari pertama yang menyinari candi menciptakan suasana magis dan menenangkan. Candi ini juga merupakan pusat spiritual dan budaya bagi umat Buddha, terutama selama perayaan Waisak."
+        },
+        {
+         "id":2,
+        "nama": "Pantai Kuta",
+        "provinsi": "Bali",
+        "kota": "Badung",
+        "gambar": "pulaubali.png",
+        "deskripsi": "Pantai Kuta, yang terletak di Kabupaten Badung, Bali, adalah salah satu destinasi pantai paling ikonik di Indonesia. Dengan pasir putihnya yang luas, ombak besar yang sempurna untuk berselancar, dan suasana yang hidup, pantai ini menjadi tempat favorit wisatawan lokal maupun mancanegara. Saat matahari terbenam, Pantai Kuta menawarkan pemandangan yang luar biasa indah, menjadikannya lokasi ideal untuk bersantai dan menikmati momen romantis. Selain itu, kawasan di sekitar pantai ini dipenuhi dengan berbagai restoran, kafe, bar, dan pusat perbelanjaan.."
+        },
+        {
+         "id":3,
+        "nama": "Danau Toba",
+        "provinsi": "Sumatera Utara",
+        "kota": "Toba",
+        "gambar": "danautoba.png",
+        "deskripsi": "Danau Toba adalah danau vulkanik terbesar di dunia dan terletak di Sumatera Utara. Danau ini memiliki panjang sekitar 100 kilometer dan lebar 30 kilometer, menjadikannya salah satu keajaiban alam Indonesia. Di tengah danau ini terdapat Pulau Samosir, sebuah pulau yang kaya akan budaya Batak. Wisatawan dapat menikmati pemandangan alam yang memukau, udara yang segar, serta berbagai aktivitas seperti berperahu, berenang, dan menjelajahi desa-desa tradisional di sekitar danau.."
+        },
+        {
+        "id":4,
+        "nama": "Gunung Bromo",
+        "provinsi": "Jawa Timur",
+        "kota": "Probolinggo",
+        "gambar": "gunungbromo.png",
+        "deskripsi": "Gunung Bromo adalah salah satu destinasi wisata paling terkenal di Jawa Timur. Gunung berapi aktif ini memiliki pemandangan yang sangat memukau, terutama saat matahari terbit, ketika langit berwarna jingga dan kabut meliputi area sekitarnya. Pendakian menuju kawah Gunung Bromo menawarkan pengalaman yang luar biasa, dengan pemandangan hamparan pasir luas yang dikenal sebagai Lautan Pasir. Gunung ini juga menjadi tempat yang sering dikunjungi untuk upacara adat masyarakat Tengger, seperti Yadnya Kasada.."
+        },
+        {
+        "id":5,
+        "nama": "Taman Mini Indonesia Indah",
+        "provinsi": "DKI Jakarta",
+        "kota": "Jakarta Timur",
+        "gambar": "tamanmini.png",
+        "deskripsi": " Taman Mini Indonesia Indah, yang terletak di Jakarta Timur, adalah taman rekreasi bertema budaya yang dirancang untuk menampilkan keragaman budaya Indonesia. Di dalamnya terdapat miniatur provinsi Indonesia lengkap dengan rumah adat, pakaian tradisional, dan berbagai seni pertunjukan. Selain itu, taman ini juga memiliki berbagai museum, taman flora dan fauna, dan wahana bermain, menjadikannya tempat yang sempurna untuk wisata edukasi keluarga.."
+        },
+        {
+        "id":6,
+        "nama": "Pantai Sanur",
+        "provinsi": "Bali",
+        "kota": "Denpasar",
+        "gambar": "pantaisanur.png",
+        "deskripsi": "Pantai Sanur adalah salah satu pantai paling tenang dan indah di Bali, terkenal dengan pasir putihnya yang lembut dan pemandangan matahari terbit yang menakjubkan. Pantai ini memiliki perairan yang tenang sehingga cocok untuk aktivitas seperti berenang, snorkeling, dan kayaking. Selain itu, di sepanjang pesisir pantai terdapat berbagai restoran, hotel, dan galeri seni yang menawarkan pengalaman wisata yang santai dan berkelas.."
+        },
+        {
+         "id":7,
+        "nama": "Kawah Ijen",
+        "provinsi": "Jawa Timur",
+        "kota": "Banyuwangi",
+        "gambar": "kawahijen.png",
+        "deskripsi": "Kawah Ijen, yang terletak di Banyuwangi, Jawa Timur, adalah salah satu fenomena alam paling unik di dunia. Kawah ini terkenal karena api biru yang hanya bisa dilihat pada malam hari, fenomena langka yang menarik perhatian wisatawan dan fotografer dari seluruh dunia. Kawah ini juga merupakan sumber belerang alami, dan para wisatawan dapat melihat langsung para penambang belerang yang bekerja keras mengumpulkan belerang di tengah lingkungan yang keras dan berbahaya.."
+        },
+        {
+        "id":8,
+        "nama": "Pulau Komodo",
+        "provinsi": "Nusa Tenggara Timur",
+        "kota": "Labuan Bajo",
+        "gambar": "tamannasionalkomodo.png",
+        "deskripsi": "Pulau Komodo adalah bagian dari Taman Nasional Komodo di Nusa Tenggara Timur, rumah bagi komodo, spesies kadal terbesar di dunia. Pulau ini menawarkan keindahan alam yang luar biasa, dengan pantai-pantai berpasir putih, perairan jernih, dan terumbu karang yang kaya akan kehidupan laut. Selain itu, wisatawan dapat melakukan trekking untuk melihat komodo di habitat aslinya, menjadikan perjalanan ini pengalaman yang mendebarkan sekaligus mendidik.."
+        },
+        {
+         "id":9,
+        "nama": "Monumen Nasional",
+        "provinsi": "DKI Jakarta",
+        "kota": "Jakarta",
+        "gambar": "monasjakarta.png",
+        "deskripsi": " Monumen Nasional, yang sering disebut Monas, adalah simbol perjuangan dan kemerdekaan Indonesia. Terletak di pusat Jakarta, monumen ini memiliki tinggi 132 meter dan dilapisi dengan emas di puncaknya. Pengunjung dapat naik ke puncak Monas untuk menikmati pemandangan kota Jakarta dari ketinggian. Di bagian bawah monumen, terdapat museum yang menceritakan sejarah perjuangan bangsa Indonesia.."
+        },
+        {
+        "id":10,
+        "nama": "Pulau Belitung",
+        "provinsi": "Kepulauan Bangka Belitung",
+        "kota": "Tanjung Pandan",
+        "gambar": "pantaisanur.png",
+        "deskripsi": "Pulau Belitung, yang terletak di Kepulauan Bangka Belitung, adalah surga tropis yang terkenal dengan pantainya yang memukau. Pulau ini memiliki pasir putih yang lembut, batu granit besar yang unik, dan perairan biru jernih yang sempurna untuk snorkeling dan diving. Pulau ini juga menjadi lokasi populer setelah film *Laskar Pelangi* memperkenalkan keindahan Belitung ke dunia."
+        },
+        {
+        "id":11,
+        "nama": "Pantai Parangtritis",
+        "provinsi": "DI Yogyakarta",
+        "kota": "Bantul",
+        "gambar": "kepulauanseribu.png",
+        "deskripsi": "Pantai Parangtritis yang terletak di Kabupaten Bantul, DI Yogyakarta, adalah salah satu pantai paling populer di Jawa. Pantai ini dikenal dengan pasir hitam vulkaniknya yang eksotis dan ombak besar yang memikat para peselancar. Pemandangan matahari terbenam di sini sangat memukau, menciptakan suasana romantis dan damai. Selain itu, Pantai Parangtritis juga memiliki nilai mistis dalam budaya Jawa, terutama dalam kaitannya dengan legenda Nyi Roro Kidul, ratu Laut Selatan. Wisatawan juga dapat menikmati aktivitas seperti menaiki delman di sepanjang pantai atau mencoba paralayang dari Bukit Parangndog.."
+        },
+        {
+        "id":12,
+        "nama": "Raja Ampat",
+        "provinsi": "Papua Barat",
+        "kota": "Sorong",
+        "gambar": "raja.png",
+        "deskripsi": "Kepulauan Raja Ampat di Papua Barat adalah surga bagi para penyelam dan pecinta alam bawah laut. Dengan keanekaragaman hayati laut yang luar biasa, Raja Ampat memiliki terumbu karang terbaik di dunia, penuh dengan berbagai jenis ikan tropis, hiu, dan kura-kura. Kepulauan ini terdiri dari ratusan pulau kecil yang indah, banyak di antaranya masih belum tersentuh. Selain itu, budaya lokal masyarakat Papua di sekitar Raja Ampat menambah daya tarik destinasi ini, menawarkan pengalaman autentik dan mempesona."
+        },
+        {
+         "id":13,
+        "nama": "Pulau Bali",
+        "provinsi": "Bali",
+        "kota": "Denpasar",
+        "gambar": "pulaubali.png",
+        "deskripsi": "Pulau Bali, yang sering disebut Pulau Dewata, adalah salah satu destinasi wisata paling terkenal di Indonesia. Pulau ini menawarkan kombinasi sempurna antara keindahan alam, pantai yang menakjubkan, dan budaya yang kaya. Dari pantai-pantai terkenal seperti Seminyak, Jimbaran, hingga Ubud yang menjadi pusat seni dan spiritualitas, Bali memiliki sesuatu untuk setiap jenis wisatawan. Selain itu, festival budaya seperti Galungan dan Nyepi memberikan pengalaman unik tentang tradisi Hindu Bali."
+        },
+        {
+         "id":14,
+        "nama": "Taman Safari Indonesia",
+        "provinsi": "Banten",
+        "kota": "Cisarua",
+        "gambar": "tamansafari.png",
+        "deskripsi": "Taman Safari Indonesia, yang berlokasi di Cisarua, Bogor, Jawa Barat, adalah salah satu taman konservasi satwa terbaik di Indonesia. Taman ini menawarkan pengalaman interaktif di mana pengunjung dapat melihat berbagai spesies hewan dari seluruh dunia, seperti harimau, gajah, dan singa, dalam habitat semi-alami mereka. Taman ini juga memiliki berbagai wahana bermain, pertunjukan hewan, dan program edukasi yang cocok untuk wisata keluarga."
+        },
+        {
+        "id":15,
+        "nama": "Candi Prambanan",
+        "provinsi": "DI Yogyakarta",
+        "kota": "Sleman",
+        "gambar": "candiprambanan.png",
+        "deskripsi": "Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia, yang terletak di Sleman, DI Yogyakarta. Dengan arsitektur yang menakjubkan dan relief yang menceritakan kisah Ramayana, candi ini adalah salah satu situs warisan budaya yang paling penting di Indonesia. Wisatawan dapat menikmati keindahan candi ini terutama saat malam hari, ketika candi diterangi cahaya, atau menyaksikan pertunjukan tari Ramayana Ballet yang berlangsung di panggung terbuka dekat kompleks candi."
+        },
+        {
+         "id":16,
+        "nama": "Bali Safari and Marine Park",
+        "provinsi": "Bali",
+        "kota": "Gianyar",
+        "gambar": "balisafari.png",
+        "deskripsi": "Bali Safari and Marine Park, yang terletak di Gianyar, Bali, adalah taman wisata satwa yang menawarkan pengalaman edukasi dan hiburan. Pengunjung dapat melihat satwa liar dari berbagai benua, termasuk Afrika, Asia, dan Indonesia. Selain itu, taman ini juga menampilkan pertunjukan budaya, seperti Bali Agung Show, yang menggabungkan tarian tradisional Bali dengan cerita legenda lokal."
+        },
+        {
+        "id":17,
+        "nama": "Gunung Rinjani",
+        "provinsi": "Nusa Tenggara Barat",
+        "kota": "Lombok",
+        "gambar": "gunungrinjani.png",
+        "deskripsi": "Gunung Rinjani, yang terletak di Lombok, Nusa Tenggara Barat, adalah gunung berapi kedua tertinggi di Indonesia. Gunung ini menjadi favorit para pendaki karena pemandangan spektakulernya, termasuk Danau Segara Anak di puncaknya. Pendakian menuju Gunung Rinjani menawarkan pengalaman yang menantang tetapi memuaskan, dengan panorama yang mencakup hutan lebat, air terjun, dan pemandangan laut."
+        },
+        {
+         "id":18,
+        "nama": "Pulau Dewata",
+        "provinsi": "Bali",
+        "kota": "Denpasar",
+        "gambar": "pulaudewata.png",
+        "deskripsi": "Pulau Dewata, yang merupakan julukan untuk Bali, adalah tempat di mana keindahan alam, pantai eksotis, dan budaya tradisional berpadu sempurna. Pulau ini dikenal karena atmosfer spiritualnya yang mendalam, dengan pura-pura seperti Uluwatu dan Tanah Lot yang menjadi daya tarik utama. Selain itu, aktivitas seperti yoga, spa, dan workshop seni menjadikan Bali tempat yang ideal untuk relaksasi dan pengembangan diri."
+        },
+        {
+        "id":19,
+        "nama": "Pulau Samosir",
+        "provinsi": "Sumatera Utara",
+        "kota": "Toba",
+        "gambar": "pulausamosir.png",
+        "deskripsi": "Pulau Samosir, yang terletak di tengah Danau Toba, Sumatera Utara, adalah tempat yang kaya akan budaya Batak Toba. Di sini, wisatawan dapat mengunjungi desa-desa tradisional seperti Ambarita dan Simanindo, yang menampilkan rumah adat Batak, patung batu kuno, dan tarian Tor-Tor. Selain itu, pemandangan alam di sekitar pulau ini sangat memukau, dengan perbukitan hijau dan udara segar yang membuat suasana tenang dan damai."
+        },
+        {
+         "id":20,   
+        "nama": "Candi Sukuh",
+        "provinsi": "Jawa Tengah",
+        "kota": "Karanganyar",
+        "gambar": "candisukuh.png",
+        "deskripsi": "Candi Sukuh, yang terletak di lereng Gunung Lawu, Karanganyar, Jawa Tengah, adalah salah satu candi Hindu paling unik di Indonesia. Candi ini memiliki arsitektur yang berbeda dari kebanyakan candi di Jawa, dengan elemen desain yang menyerupai piramida. Selain itu, lokasinya yang dikelilingi oleh hutan pinus membuat suasana di sekitar candi ini sejuk dan menenangkan, cocok untuk wisatawan yang mencari ketenangan."
+        },
+        {
+        "id":21,
+        "nama": "Kepulauan Seribu",
+        "provinsi": "DKI Jakarta",
+        "kota": "Jakarta Utara",
+        "gambar": "kepulauanseribu.png",
+        "deskripsi": "Kepulauan Seribu, yang terletak di utara Jakarta, adalah destinasi wisata yang terdiri dari pulau-pulau kecil dengan keindahan tropis. Pulau-pulau seperti Pulau Pramuka, Pulau Macan, dan Pulau Tidung menawarkan pantai berpasir putih, snorkeling, diving, dan kegiatan air lainnya. Lokasinya yang dekat dengan ibu kota menjadikan Kepulauan Seribu tempat yang sempurna untuk liburan singkat."
+        },
+        {
+        "id":22,
+        "nama": "Danau Kelimutu",
+        "provinsi": "Nusa Tenggara Timur",
+        "kota": "Ende",
+        "gambar": "kelimutu.png",
+        "deskripsi": "Danau Kelimutu, yang terletak di Kabupaten Ende, Nusa Tenggara Timur, adalah salah satu fenomena alam paling menakjubkan di Indonesia. Danau ini memiliki tiga kawah yang berubah warna, sebuah fenomena yang hingga kini masih menjadi misteri. Warna danau sering kali berubah-ubah, menciptakan pemandangan yang menakjubkan dan menarik wisatawan dari seluruh dunia."
+        },
+        {
+        "id":23,
+        "nama": "Pantai Tanjung Lesung",
+        "provinsi": "Banten",
+        "kota": "Pandeglang",
+        "gambar": "pantaitanjunglesung.png",
+        "deskripsi": "Pantai Tanjung Lesung, yang terletak di Pandeglang, Banten, adalah destinasi pantai yang ideal untuk bersantai. Pantai ini menawarkan pasir putih, ombak yang tenang, dan pemandangan laut yang memukau. Dengan fasilitas resor yang lengkap dan aktivitas seperti snorkeling, kayaking, dan menikmati kuliner laut segar, Pantai Tanjung Lesung menjadi tempat liburan keluarga yang sempurna."
+        }
+      
+    ]
+}
+
+

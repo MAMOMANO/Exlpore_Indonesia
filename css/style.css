@@ -1,0 +1,623 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Animasi dasar */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body {
+  background-color: azure;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+.explore {
+  padding: 30px;
+  text-align: center;
+  font-family: "Quikcsand", sans-serif;
+  font-size: 60px;
+  width: 100%;
+  margin: 10px;
+  color: white;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* .cardnav{
+   width: 100%;
+   background-color: #f5a0c3;
+   height: auto;
+   box-sizing: border-box;
+
+} */
+.container {
+  background-image: url("../wisata/gunung.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 80vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.awal {
+  width: 100%;
+  /* justify-content: center; */
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  padding: 50px;
+  margin: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(0, 0, 0);
+  transition: ease-in 0.2s;
+  /* font-weight: bolder; */
+}
+
+#jelajahi {
+  width: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: solid 1px black;
+  margin-bottom: 40px;
+  height: e40px;
+}
+
+#jelajahi:hover {
+  background-color: white;
+  transition: ease-in-out 0.1s;
+  /* border: solid 1px red; */
+  cursor: pointer;
+}
+
+.cardutama {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.cardutama img {
+  width: 45%;
+  height: 50vh;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+.cardutama p {
+  align-items: center;
+  font-size: 20px;
+}
+.cardatas {
+  width: 100%;
+  height: 50%;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.info p {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kumpulancard {
+  width: 20%;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px 5px;
+}
+
+.kumpulancard img {
+  width: 250px;
+  height: 35vh;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.kumpulancard h3 {
+  font-size: 20px;
+}
+
+.kumpulancard button {
+  border-radius: 10px;
+  border: solid 1px black;
+  padding: 5px;
+  width: 50%;
+  font-size: 20px;
+}
+
+.kumpulancard button:hover {
+  background-color: azure;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2rem;
+  /* Ukuran default */
+  text-align: center;
+  /* Rata tengah */
+}
+
+footer {
+  width: 100%;
+  height: 25vh;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.5);
+}
+
+footer h3 {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+footer ul {
+  font-size: 15px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+footer ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer ul li a:hover {
+  color: rgb(3, 81, 92);
+}
+
+/* destinasi */
+
+.containerdestinasi {
+  background-image: url("../wisata/gunungbromo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.destinasi {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+.infodestinasi {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.infodestinasi h3 {
+  width: 50%;
+  font-size: 50px;
+  text-align: start;
+}
+
+.destinasiinfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+}
+
+.destinasiinfo p {
+  font-size: 15px;
+  text-align: start;
+  width: 50%;
+  padding: 20px;
+}
+
+.jelajahi {
+  font-size: 40px;
+  text-align: center;
+}
+
+.cardestinasi {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.kmplncarddestinasi {
+  width: 30%;
+  max-width: 400px;
+  height: auto;
+  max-height: 400px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 15px 30px;
+  overflow: hidden;
+  transition: all 0.3 ease;
+}
+
+.kmplncarddestinasi img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 15px 30px 0 0;
+}
+
+.kmplncarddestinasi h3 {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  margin: 10px 0;
+}
+
+.tempat {
+  font-size: 30px;
+  text-align: center;
+}
+
+.tempat {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 25px;
+  justify-content: start;
+  box-sizing: border-box;
+}
+
+.tempatpopuler {
+  width: calc(20% - 20px);
+  height: auto;
+  max-height: 300px;
+  box-shadow: 1px 4px 8px rgb(0, 0, 0, 0.5);
+  border-radius: 10px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tempatpopuler img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 20px;
+  object-fit: cover;
+}
+
+.tempatpopuler h4 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.tempatpopuler:hover img {
+  filter: brightness(70%);
+  transition: 0.3s ease;
+}
+
+.kmplncarddestinasi:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.tempatpopuler h4 {
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.tempatpopuler:hover h4 {
+  opacity: 1;
+}
+
+.tempatpopuler:hover {
+  cursor: pointer;
+}
+.containerdetail {
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  padding: 50px;
+}
+
+.detailinformasi {
+  display: flex;
+  flex-direction: row;
+  /* Gambar dan teks sejajar horizontal */
+  justify-content: space-between;
+  /* Menyediakan ruang antar elemen */
+  align-items: flex-start;
+  /* Menyelaraskan elemen secara vertikal */
+  gap: 20px;
+  /* Memberikan jarak antar elemen */
+}
+
+.detailinformasi img {
+  width: 40%;
+  /* Ukuran gambar 40% dari lebar container */
+  border-radius: 10px;
+  object-fit: cover;
+  /* Menjaga rasio gambar */
+}
+
+.info-text {
+  flex: 1;
+}
+
+.info-text h2 {
+  font-size: 2.5rem;
+  /* Ukuran font untuk nama wisata */
+  margin: 0 0 10px 0;
+  /* Margin bawah untuk memberi jarak */
+}
+
+.info-text h4 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  /* Margin untuk memisahkan paragraf */
+  color: #555;
+  /* Warna teks untuk provinsi dan kota */
+}
+
+.info-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  /* Warna teks deskripsi */
+}
+
+.containerdetailutama {
+  background-image: url("../wisata/gunungbromo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  max-width: 100%;
+  /* overflow: hidden; */
+}
+
+.containertempat {
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  padding: 50px;
+}
+
+.detailtempat {
+  display: flex;
+  flex-direction: row;
+  /* Gambar dan teks sejajar horizontal */
+  justify-content: space-between;
+  /* Menyediakan ruang antar elemen */
+  align-items: flex-start;
+  /* Menyelaraskan elemen secara vertikal */
+  gap: 20px;
+  /* Memberikan jarak antar elemen */
+}
+
+.detailtempat img {
+  width: 40%;
+  /* Ukuran gambar 40% dari lebar container */
+  border-radius: 10px;
+  object-fit: cover;
+  /* Menjaga rasio gambar */
+}
+
+.info-text {
+  flex: 1;
+}
+
+.info-text h2 {
+  font-size: 2.5rem;
+  /* Ukuran font untuk nama wisata */
+  margin: 0 0 10px 0;
+  /* Margin bawah untuk memberi jarak */
+}
+
+.info-text h4 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  /* Margin untuk memisahkan paragraf */
+  color: #555;
+  /* Warna teks untuk provinsi dan kota */
+}
+
+.info-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  /* Warna teks deskripsi */
+}
+
+.containerdetailtempat {
+  background-image: url("../wisata/gunungbromo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  max-width: 100%;
+  /* overflow: hidden; */
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .cardutama {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    /* Biarkan tinggi menyesuaikan */
+  }
+
+  .cardutama img,
+  .cardutama p {
+    width: 90%;
+    /* Kurangi lebar */
+    margin-bottom: 20px;
+  }
+
+  .kumpulancard,
+  .tempatpopuler {
+    width: calc(50% - 10px);
+    /* Setengah lebar layar */
+  }
+
+  .detailinformasi {
+    flex-direction: column;
+    /* Mengubah tata letak menjadi vertikal pada layar kecil */
+    text-align: center;
+    /* Menyelaraskan teks di tengah */
+  }
+
+  .detailinformasi img {
+    width: 80%;
+    /* Gambar lebih kecil pada layar kecil */
+    margin: 0 auto;
+    /* Menjaga gambar tetap terpusat */
+  }
+
+  .info-text {
+    text-align: center;
+    /* Menyelaraskan teks ke tengah */
+  }
+}
+
+@media (max-width: 480px) {
+  .kumpulancard,
+  .tempatpopuler {
+    width: 100%;
+    /* Penuhi lebar layar */
+  }
+
+  .card,
+  .tempat,
+  .cardestinasi {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    /* Elemen turun jika tidak cukup ruang */
+  }
+
+  .destinasi {
+    font-size: 40px;
+    /* Kurangi ukuran font */
+  }
+
+  .infodestinasi {
+    flex-direction: column;
+    /* Atur secara vertikal */
+    align-items: center;
+  }
+
+  .infodestinasi h3,
+  .infodestinasi p {
+    width: 100%;
+    /* Sesuaikan lebar */
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 1.5rem;
+    /* Ukuran lebih kecil untuk layar mobile */
+  }
+
+  .kmplncarddestinasi {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .kmplncarddestinasi h3 {
+    font-size: 18px;
+  }
+
+  .card img {
+    width: 50%;
+    /* Gambar lebih kecil pada layar kecil */
+    margin: 0 auto;
+    /* Menjaga gambar tetap terpusat */
+  }
+}
